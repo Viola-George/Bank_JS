@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index_style.css">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+
+<body>
+
+
+
+    <div class="container py-5">
+
+        <div class="form-group">
+            <label>taskName :</label>
+            <input id="taskNameInp" type="text" class="my-1 form-control">
+        </div>
+
+
+
+        <div class="form-group">
+            <label>taskBalance :</label>
+            <input id="taskBalanceInp" type="text" class="my-1 form-control">
+        </div>
+
+
+
+
+        <button onclick="addTask()" id="addBtn" class="btn btn-info">add task</button>
+    </div>
+
+
+    <div class="container">
+
+        <table class="table text-center w-75 m-auto">
+            <thead>
+                <th>taskName </th>
+                <th>index </th>
+
+                <th>taskBalance </th>
+                
+                <th>update </th>
+                <th>delete </th>
+
+            </thead>
+            <tbody id="tableBody">
+
+
+            </tbody>
+        </table>
+    </div>
+
+
+
+    <script src="js/index.js"></script>
+
+
+</body>
+
+</html>
